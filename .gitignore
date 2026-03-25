@@ -1,0 +1,27 @@
+# 忽略数据文件和文件夹
+*ACG-完整版*/
+*OAG-完整版*/
+*.zip
+*.csv
+*.xlsx
+
+# 忽略模型权重
+*.pth
+results_wingloss/
+
+# 忽略安装包和日志
+*.whl
+*.log
+=1.2.0
+
+# 忽略下载的文献
+*.pdf
+# 如果你想保留你自己生成的 evaluation pdf，可以把上一行改为具体的排除，比如：
+# Attention is all you nend.pdf
+
+# Python 缓存
+__pycache__/
+*.pyc
+.idea/
+wget-log
+*.whl*
